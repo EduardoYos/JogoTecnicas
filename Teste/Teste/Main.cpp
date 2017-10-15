@@ -23,109 +23,111 @@
 
 #include "stdafx.h"
 
-#include <allegro5/allegro.h>
-#include <allegro5/allegro_primitives.h>
-#include <allegro5/allegro_image.h>
-
-#include <stdio.h>
-
+#include "Janela.h"
+#include "Background.h"
+#include "Personagem.h"
+#include "Evento.h"
 
 
-class Janela
+class Menu
 {
 private:
-	ALLEGRO_DISPLAY* janela;
-	int h; //Altura
-	int w; //Largura
+	ALLEGRO_FONT* fonte;
 
 public:
-	Janela(int wi, int he) 
-	{ h = he; w = wi; janela = al_create_display(w, h); }
-	~Janela() { al_destroy_display(janela); } //Finaliza a Janela
-};
+	Menu() { fonte = NULL; setup(); }
+	~Menu() { al_destroy_font(fonte); }
 
-class Background
-{
-private:
-	ALLEGRO_BITMAP* imagem;
-
-public:
-	Background(ALLEGRO_BITMAP* img) { imagem = img;  }
-	~Background() {}
-
-	void atualiza() { al_draw_bitmap(imagem, 0, 0, 0); }
-};
-
-class Personagem
-{
-private:
-	int posx, posy; //Posição do personagem
-	ALLEGRO_BITMAP* imagem; //Imagem do personagem
-
-public:
-	Personagem(int x = 0, int y = 0, ALLEGRO_BITMAP* img = NULL) 
-	{ posx = x; posy = y; imagem = img; }
-	~Personagem() {}
-
-	void atualiza() { al_draw_bitmap(imagem, posx, posy, 0); } //Desenha a imagem na tela
-	void atualizaPos()
+	void setup() 
 	{
-		if (ALLEGRO_KEY_W)
-			posy++;
-		if (ALLEGRO_KEY_S)
-			posy--;
-		if (ALLEGRO_KEY_D)
-			posx++;
-		if (ALLEGRO_KEY_A)
-			posx--;
+		al_init_font_addon();
+		al_init_ttf_addon();
+		al_init_image_addon();
+		fonte = al_load_font("BRADHITC.ttf", 48, 0);
 	}
+
+	void mostrar() 
+	{
+		al_draw_text(fonte, al_map_rgb(255, 0, 0), 50, 20, ALLEGRO_ALIGN_LEFT, "1 - Continuar Jogo");
+		al_draw_text(fonte, al_map_rgb(255, 0, 0), 100, 20, ALLEGRO_ALIGN_LEFT, "2 - Novo Jogo");
+		al_draw_text(fonte, al_map_rgb(255, 0, 0), 150, 20, ALLEGRO_ALIGN_LEFT, "3 - Carregar Jogo");
+		al_draw_text(fonte, al_map_rgb(255, 0, 0), 200, 20, ALLEGRO_ALIGN_LEFT, "4 - Salvar Jogo");
+		al_draw_text(fonte, al_map_rgb(255, 0, 0), 250, 20, ALLEGRO_ALIGN_LEFT, "5 - Ranking Jogo");
+		al_draw_text(fonte, al_map_rgb(255, 0, 0), 300, 20, ALLEGRO_ALIGN_LEFT, "0 - Sair");
+
+		al_rest(5);
+	}
+	void sair() {  }
 };
+
 
 class Jogo
 {
 private:
-	Janela* j;
-	Background* b;
-	Personagem* p;
-	ALLEGRO_EVENT_QUEUE* fila_eventos;
+	Janela* janela;
+	Background* background;
+	Personagem* personagem;
+	Evento* evento;
+	Menu* menu;
 
 public:
 	Jogo()
 	{
-		al_init(); //inicializa o allegro
-		al_init_image_addon(); //inicializa o addon para imagens
-		al_install_keyboard();
-		//fila_eventos = al_create_event_queue();
-		//al_register_event_source(fila_eventos, al_get_keyboard_event_source());
-		//al_register_event_source(fila_eventos, al_get_display_event_source(janela));
-
-		j = new Janela(1024, 768);
-		b = new Background(al_load_bitmap("Imagens\\Background\\FinalBattleForest.png"));
-		p = new Personagem(10, 10, al_load_bitmap("Imagens\\Personagem\\Idle\\Idle__000.png"));
-
-		executar();
+		setup(); //Configura o jogo
+		executar(); //Executa o Jogo
 	}
 	~Jogo() { }
 
+	void setup() 
+	{
+		al_init(); //inicializa o allegro
+		al_init_image_addon(); //inicializa o addon para imagens
+
+		janela = new Janela(1024, 768); //cria janela
+		background = new Background(al_load_bitmap("Imagens\\Background\\FinalBattleForest.png")); //Cria o Background
+		personagem = new Personagem(10, 10, al_load_bitmap("Imagens\\Personagem\\Idle\\Idle__000.png")); //Cria o Personagem
+		evento = new Evento();
+		evento->setJanela(janela); //Seta a janela para que possa estabelecer de qual janela irá receber eventos
+		evento->setup();
+		//menu = new Menu(); ///FONTE NÃO CARREGANDO
+	}
+
 	void executar()
 	{
-		b->atualiza();
+		bool fim = false;
 
-		while (1)
+		//menu->mostrar();
+
+		while (!fim) //LOOP principal
 		{
-			p->atualizaPos();
-			
-			p->atualiza();
+			evento->esperaEvento();
+
+			background->atualiza(); //Atualiza o Background
+			personagem->movimento(evento->getTecla()); //Ação do Personagem
+			personagem->atualiza(); //atualiza o personagem na tela
+
 			al_flip_display(); //Atualiza a tela
+
+			if (evento->eventoTipo() == ALLEGRO_EVENT_DISPLAY_CLOSE) //Se o X da janela foi clicado, então fecha o jgo
+				fim = true;
+			if (evento->getTecla() == ALLEGRO_KEY_ESCAPE) //se o evento foi o "ESCAPE" (ESC) do teclado
+				fim = true;
+
 		}
+
+		delete janela;
+		delete background;
+		delete personagem;
+		delete evento;
+		//delete menu;
 	}
 };
+
+
 
 int main(void)
 {
 	Jogo j;
-
-	al_rest(10);
 	return 0;
 }
 
