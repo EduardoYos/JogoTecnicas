@@ -150,7 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Background.h" />
-    <ClInclude Include="Evento.h" />
+    <ClInclude Include="Usuario.h" />
     <ClInclude Include="Janela.h" />
     <ClInclude Include="Personagem.h" />
     <ClInclude Include="stdafx.h" />

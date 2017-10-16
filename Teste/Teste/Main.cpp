@@ -26,7 +26,7 @@
 #include "Janela.h"
 #include "Background.h"
 #include "Personagem.h"
-#include "Evento.h"
+#include "Usuario.h"
 
 
 class Menu
@@ -67,7 +67,7 @@ private:
 	Janela* janela;
 	Background* background;
 	Personagem* personagem;
-	Evento* evento;
+	Usuario* user;
 	Menu* menu;
 
 public:
@@ -86,9 +86,9 @@ public:
 		janela = new Janela(1024, 768); //cria janela
 		background = new Background(al_load_bitmap("Imagens\\Background\\FinalBattleForest.png")); //Cria o Background
 		personagem = new Personagem(10, 10, al_load_bitmap("Imagens\\Personagem\\Idle\\Idle__000.png")); //Cria o Personagem
-		evento = new Evento();
-		evento->setJanela(janela); //Seta a janela para que possa estabelecer de qual janela irá receber eventos
-		evento->setup();
+		user = new Usuario();
+		user->setJanela(janela); //Seta a janela para que possa estabelecer de qual janela irá receber eventos
+		user->setup();
 		//menu = new Menu(); ///FONTE NÃO CARREGANDO
 	}
 
@@ -100,17 +100,17 @@ public:
 
 		while (!fim) //LOOP principal
 		{
-			evento->esperaEvento();
+			user->esperaEvento();
 
 			background->atualiza(); //Atualiza o Background
-			personagem->movimento(evento->getTecla()); //Ação do Personagem
+			personagem->movimento(user->getTecla()); //Ação do Personagem
 			personagem->atualiza(); //atualiza o personagem na tela
 
 			al_flip_display(); //Atualiza a tela
 
-			if (evento->eventoTipo() == ALLEGRO_EVENT_DISPLAY_CLOSE) //Se o X da janela foi clicado, então fecha o jgo
+			if (user->eventoTipo() == ALLEGRO_EVENT_DISPLAY_CLOSE) //Se o X da janela foi clicado, então fecha o jgo
 				fim = true;
-			if (evento->getTecla() == ALLEGRO_KEY_ESCAPE) //se o evento foi o "ESCAPE" (ESC) do teclado
+			if (user->getTecla() == ALLEGRO_KEY_ESCAPE) //se o evento foi o "ESCAPE" (ESC) do teclado
 				fim = true;
 
 		}
@@ -118,7 +118,7 @@ public:
 		delete janela;
 		delete background;
 		delete personagem;
-		delete evento;
+		delete user;
 		//delete menu;
 	}
 };
