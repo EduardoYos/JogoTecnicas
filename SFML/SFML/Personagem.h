@@ -5,42 +5,80 @@
 class Personagem
 {
 private:
-	sf::Vector2<float> pos;
-	sf::Texture texture;
+	sf::Vector2f pos;
+	sf::Texture parado;
+	sf::Texture andando;
 	sf::Sprite sprite;
+	sf::View* camera;
+	string estado;
 
 public:
 	~Personagem() {}
 	Personagem(string const s)
 	{
-		texture.loadFromFile(s);
-		sprite.setTexture(texture);
+		parado.loadFromFile(s, sf::IntRect(5, 2, 37, 38));		//CARREGAR OS SPRITES
+		andando.loadFromFile(s, sf::IntRect(54, 44, 41, 41));
+		sprite.setTexture(parado);
 
-		pos.x = 400;
-		pos.y = 400;
+		pos.x = 120;
+		pos.y = 120;
 	}
 
-	void movimentarA() 
+	void acao(string tecla)
 	{
-		pos.x -= .5;
-		sprite.setPosition(pos);
+		if (tecla == "A")
+		{
+			mudaEstado("andando");
+			pos.x -= .01;
+			camera->move(-.01, 0);
+			sprite.setPosition(pos);
+		}
+
+		if (tecla == "D")
+		{
+			mudaEstado("andando");
+			pos.x += .01;
+			camera->move(.01, 0);
+			sprite.setPosition(pos);
+		}
+		if (tecla == "W" && pos.y >= 119.8)
+		{
+			mudaEstado("parado");
+			pos.y -= 50;
+			sprite.setPosition(pos);
+		}
+
+		return;
 	}
-	void movimentarD() 
+
+	void mudaEstado(string s)
 	{
-		pos.x += .5;
-		sprite.setPosition(pos);
+		if (s == "parado")
+		{
+			estado = "parado";
+			sprite.setTexture(parado);
+		}
+		if (s == "andando")
+		{
+			estado = "andando";
+			sprite.setTexture(andando);
+		}
+		return;
 	}
-	void movimentarW()
+
+	void gravidade()
 	{
-		pos.y -= .5;
-		sprite.setPosition(pos);
+		if (pos.y < 120)
+		{
+			pos.y += 0.032;
+		}
+		return;
 	}
-	void movimentarS()
-	{
-		pos.y += .5;
-		sprite.setPosition(pos);
-	}
+
+	void setCamera(sf::View* c) { camera = c; }
 
 	sf::Sprite getSprite() { return sprite; }
+
+	float getPosX() { return pos.x; }
 	 
 };

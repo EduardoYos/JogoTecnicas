@@ -14,6 +14,7 @@ private:
 	sf::Keyboard keyboard;
 	Background* background;
 	Personagem* personagem;
+	sf::View* camera;
 
 public:
 	virtual ~Jogo() {}
@@ -25,9 +26,39 @@ public:
 
 	void iniciar()
 	{
-		janela = new sf::RenderWindow(sf::VideoMode(1024, 768), "Meu Jogo");
-		background = new Background("Imagens\\Background\\FinalBattleForest.png");
-		personagem = new Personagem("Imagens\\Personagem\\Idle\\Idle__000.png");
+		janela = new sf::RenderWindow(sf::VideoMode(1024, 768), "Meu Jogo");	//CRIA UMA JANELA
+		janela->setPosition(sf::Vector2i(0, 0));	//SETA A POSIÇÃO DA JANELA NA TELA DO USUARIO
+
+		background = new Background("Imagens\\Cidade.png");	//CRIA O BACKGROUND
+		personagem = new Personagem("Imagens\\Player1.png"); //CRIA O PERSONAGEM
+
+		camera = new sf::View(sf::Vector2f(personagem->getPosX()+20, 207/2), sf::Vector2f(276, 207));
+		personagem->setCamera(camera);
+
+		janela->setView(*camera);
+	}
+
+	void movimentarPersonagem()
+	{
+		personagem->gravidade();
+		if (keyboard.isKeyPressed(keyboard.A))
+			personagem->acao("A");
+		if (keyboard.isKeyPressed(keyboard.D))
+			personagem->acao("D");
+		if (keyboard.isKeyPressed(keyboard.W))
+			personagem->acao("W");
+		return;
+	}
+
+	void atualizarEcra()
+	{
+		janela->clear();	///LIMPA A TELA
+		janela->draw(background->getSprite()); //desenha o fundo
+		janela->draw(personagem->getSprite()); //desenha o personagem
+		personagem->mudaEstado("parado");
+		janela->setView(*camera);
+		janela->display();	///ATUALIZA A TELA
+		return;
 	}
 
 	void executar()
@@ -39,20 +70,9 @@ public:
 				if (evento.type == sf::Event::Closed)
 					janela->close();
 			}
-			if (keyboard.isKeyPressed(keyboard.A))
-				personagem->movimentarA();
-			if (keyboard.isKeyPressed(keyboard.D))
-				personagem->movimentarD();
-			if (keyboard.isKeyPressed(keyboard.W))
-				personagem->movimentarW();
-			if (keyboard.isKeyPressed(keyboard.S))
-				personagem->movimentarS();
-			
-			
-			janela->clear();	///LIMPA A TELA
-			janela->draw(background->getSprite()); //desenha o fundo
-			janela->draw(personagem->getSprite()); //desenha o personagem
-			janela->display();	///ATUALIZA A TELA
+
+			movimentarPersonagem();
+			atualizarEcra();
 		}
 	}
 };
