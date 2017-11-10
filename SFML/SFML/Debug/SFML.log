@@ -1,8 +1,57 @@
 ﻿  SFML.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(32): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(33): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(40): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(41): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(73): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  RifleSoldier.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Player.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Personagem.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Jogador2.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Jogador1.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Inimigo.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Chefe.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  BazookaSoldier.cpp
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Gerando Código...
   SFML.vcxproj -> C:\Users\Thiago\Desktop\Hello World!\SFML\Debug\SFML.exe
   SFML.vcxproj -> C:\Users\Thiago\Desktop\Hello World!\SFML\Debug\SFML.pdb (Partial PDB)

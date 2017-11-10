@@ -1,8 +1,9 @@
 #pragma once
 
 #include "stdafx.h"
-
+#include "Entidade.h"
 class Personagem
+	: public Entidade
 {
 private:
 	sf::Vector2f pos;
@@ -13,6 +14,7 @@ private:
 	string estado;
 
 public:
+	Personagem();
 	~Personagem() {}
 	Personagem(string const s)
 	{
