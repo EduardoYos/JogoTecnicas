@@ -8,3 +8,9 @@ public:
 	~Player();
 };
 
+/*
+	Implementar:
+	- virtual puro setControles
+	- Animações
+	- outras coisas a mais
+*/

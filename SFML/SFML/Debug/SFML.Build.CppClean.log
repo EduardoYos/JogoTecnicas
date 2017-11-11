@@ -1,14 +1,40 @@
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.pch
 c:\users\thiago\desktop\hello world!\sfml\sfml\debug\vc141.pdb
 c:\users\thiago\desktop\hello world!\sfml\sfml\debug\vc141.idb
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\stdafx.obj
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.pch
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\vc141.pdb
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\vc141.idb
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\stdafx.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\bazookasoldier.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\boxcolisao.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\caixa.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\chefe.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\cidade.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\entidade.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\fase.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\inimigo.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\jogador1.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\jogador2.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\lixotoxico.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\menu.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\obstaculo.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\personagem.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\player.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\progressao.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\riflesoldier.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\tiro.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\vermeexplosivo.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\background.obj
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\basesecreta.obj
 c:\users\thiago\desktop\hello world!\sfml\debug\sfml.exe
 c:\users\thiago\desktop\hello world!\sfml\debug\sfml.ilk
 c:\users\thiago\desktop\hello world!\sfml\debug\sfml.pdb
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.tlog\cl.command.1.tlog
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.tlog\cl.read.1.tlog
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.tlog\cl.write.1.tlog
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.tlog\link.command.1.tlog
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.tlog\link.read.1.tlog
-c:\users\thiago\desktop\hello world!\sfml\sfml\debug\sfml.tlog\link.write.1.tlog
+c:\users\thiago\documents\github\jogotecnicas\sfml\debug\sfml.exe
+c:\users\thiago\documents\github\jogotecnicas\sfml\debug\sfml.ilk
+c:\users\thiago\documents\github\jogotecnicas\sfml\debug\sfml.pdb
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.tlog\cl.command.1.tlog
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.tlog\cl.read.1.tlog
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.tlog\cl.write.1.tlog
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.tlog\link.command.1.tlog
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.tlog\link.read.1.tlog
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\debug\sfml.tlog\link.write.1.tlog

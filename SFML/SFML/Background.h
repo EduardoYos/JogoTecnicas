@@ -19,3 +19,11 @@ public:
 	sf::Texture getTextura() { return texture; }
 	sf::Sprite getSprite() { return imagem; }
 };
+
+/*
+	Implementar:
+	- Cena
+	- Chão (colisão)
+	- Parede de início e fim (pro jogador não ir pro limbo)
+	- Início e fim do mapa (aqui ou na progressão???)
+*/

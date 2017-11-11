@@ -8,3 +8,6 @@ public:
 	~Chefe();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

@@ -8,3 +8,9 @@ public:
 	~Inimigo();
 };
 
+/*
+	Implementar:
+	 - virtual puro Ataques
+	 - virtual puro Movimentação
+	 - virtual puro IA
+*/

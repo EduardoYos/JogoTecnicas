@@ -8,3 +8,6 @@ public:
 	~RifleSoldier();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

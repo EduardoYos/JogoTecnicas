@@ -84,3 +84,10 @@ public:
 	float getPosX() { return pos.x; }
 	 
 };
+
+/*
+	Implementar:
+	 - virtual puro Ataques
+	 - virtual puro Movimentação
+
+*/

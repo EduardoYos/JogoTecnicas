@@ -8,3 +8,8 @@ public:
 	~Tiro();
 };
 
+/*
+	Implementar:
+	- virtual puro de sprites e animações
+	- caixa de colisão
+*/

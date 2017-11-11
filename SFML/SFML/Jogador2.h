@@ -8,3 +8,6 @@ public:
 	~Jogador2();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

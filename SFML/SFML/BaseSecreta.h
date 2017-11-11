@@ -8,3 +8,6 @@ public:
 	~BaseSecreta();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

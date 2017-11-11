@@ -8,3 +8,6 @@ public:
 	~LixoToxico();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

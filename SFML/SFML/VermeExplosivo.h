@@ -8,3 +8,6 @@ public:
 	~VermeExplosivo();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

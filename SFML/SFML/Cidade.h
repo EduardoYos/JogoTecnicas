@@ -8,3 +8,6 @@ public:
 	~Cidade();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

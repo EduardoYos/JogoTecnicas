@@ -8,3 +8,6 @@ public:
 	~BazookaSoldier();
 };
 
+/*
+	Inicializar tudo dessa classe
+*/

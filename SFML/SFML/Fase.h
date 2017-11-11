@@ -6,3 +6,6 @@ public:
 	~Fase();
 };
 
+/*
+	Implementar tudo o que a Fase precisa e que deve ter (cena e progressão)
+*/

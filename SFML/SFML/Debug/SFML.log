@@ -1,57 +1,73 @@
-﻿  SFML.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+﻿  stdafx.cpp
+  VermeExplosivo.cpp
+  Tiro.cpp
+  SFML.cpp
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
   RifleSoldier.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Progressao.cpp
   Player.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
   Personagem.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Obstaculo.cpp
+  Menu.cpp
+  LixoToxico.cpp
   Jogador2.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
   Jogador1.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
   Inimigo.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Fase.cpp
+  Entidade.cpp
+  Cidade.cpp
   Chefe.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+  Caixa.cpp
+  BoxColisao.cpp
   BazookaSoldier.cpp
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
-c:\users\thiago\desktop\hello world!\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(34): warning C4305: '-=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(35): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(42): warning C4305: '+=': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(43): warning C4305: 'argumento': truncamento de 'double' para 'float'
+c:\users\thiago\documents\github\jogotecnicas\sfml\sfml\personagem.h(75): warning C4305: '+=': truncamento de 'double' para 'float'
   Gerando Código...
-  SFML.vcxproj -> C:\Users\Thiago\Desktop\Hello World!\SFML\Debug\SFML.exe
-  SFML.vcxproj -> C:\Users\Thiago\Desktop\Hello World!\SFML\Debug\SFML.pdb (Partial PDB)
+  Compilando...
+  BaseSecreta.cpp
+  Background.cpp
+  Gerando Código...
+  SFML.vcxproj -> C:\Users\Thiago\Documents\GitHub\JogoTecnicas\SFML\Debug\SFML.exe
+  SFML.vcxproj -> C:\Users\Thiago\Documents\GitHub\JogoTecnicas\SFML\Debug\SFML.pdb (Partial PDB)

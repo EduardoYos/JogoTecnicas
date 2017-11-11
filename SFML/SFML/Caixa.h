@@ -8,3 +8,6 @@ public:
 	~Caixa();
 };
 
+/*
+Inicializar tudo dessa classe
+*/
